@@ -17,6 +17,7 @@
 // console.log(a,b);
 
 // SPRADE SYNTEX
+// 
 // var arr1 = [1,2,3]
 // var obj = {...arr1}
 // console.log(arr1);
