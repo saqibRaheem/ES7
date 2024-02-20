@@ -5,6 +5,7 @@
 
 
 
+
 //   BLOCK SCOPE
 
 // Before ES6 (2015), JavaScript variables had only Global Scope and Function Scope.
@@ -12,13 +13,25 @@
 // These two keywords provide Block Scope in JavaScript.
 // Variables declared inside a { } block cannot be accessed from outside the block:
 
-let a = 4;
-console.log(a); // ACCESSed a variable 
+// let a = 4;
+// console.log(a); // ACCESSed a variable 
 
-{
-    var b = 3;
-}
-console.log(b); // NOT ACCESSed b variable
+// {
+//   let b = 3;
+// }
+// console.log(b); // NOT ACCESSed b variable
+
+
+// var text = "saqib"
+// text = "raheel"
+// var text  = " sameer"
+// let text  = "saqib"
+// text = " sameer"
+// let text 
+// const text = "saqib"
+// text = "sameer"
+// console.log(text);
+
 
 // FUNCTION SCOPE
 // JavaScript has function scope: Each function creates a new scope.
@@ -26,20 +39,23 @@ console.log(b); // NOT ACCESSed b variable
 // Variables declared with var, let and const are quite similar when declared inside a function.
 // code here can NOT use myName
 
+let myName = "saqib";
+
 function myFunction() {
-   var myName = "saqib";
-    // code here CAN use myName
-  }
+  
   console.log(myName);
+  // code here CAN use myName
+}
+myFunction()
   // code here can NOT use myName
 
 
 //   GLOBAL SCOPE
 // A variable declared outside a function, becomes GLOBAL.
 
-let add = "add";
+// let add = "add";
 // code here can use add
 
-function myFunction() {
-// code here can also use add
-}
+// function myFunction() {
+// // code here can also use add
+// }

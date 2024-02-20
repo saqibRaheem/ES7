@@ -1,14 +1,21 @@
 // Destructing assignment is used to un packed values from an arrays or propertyes from an object in to destructur valuse
+
 // let arr = [1,2,3,4,5,6,7,89]
-// var [a,b] = arr
-// console.log(a,b);
+// console.log(arr[0]);
+// console.log(arr[1]);
+// console.log(arr[2]);
+
+
+
+// var [a,b,c,d,e] = arr
+// console.log(a,b,c,d,e);
 
 // var [a,b,c] = arr
 // console.log(a,b,c);
 
 
-// var [a,b,...rest] = arr
-// console.log(a,b,rest);
+// var [a,b,c,...rest] = arr
+// console.log(a,b ,c, rest);
 
 // similar we can destructure object on the left hand side of the assignment
 
@@ -32,10 +39,10 @@
 
 
 
-var obj2 = {
-    name:"saqib",
-    email:"saqib@gmail.com",
-    phone:"1234567",
-}
+// var obj2 = {
+//     name:"saqib",
+//     email:"saqib@gmail.com",
+//     phone:"1234567",
+// }
 
-console.log({...obj2,name:'Raheem',email:'xyz',phone:'xyz'});
+// console.log({...obj2,name:"raheel",email:"xyz"});
